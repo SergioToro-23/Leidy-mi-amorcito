@@ -6355,7 +6355,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F195B2 !important;
+  /*background-color: #F195B2 !important;---------------------------------------------------------------------------------------------------------------------------*/
+  background-color: #F1B002 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9533,7 +9534,8 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #62C3E7 !important;
+  /*color: #62C3E7 !important;---------------------------------------------------------------------------------------------------------------------------*/
+  color: #F1B002 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9770,7 +9772,8 @@ h6,
   height: 50%;
   top: 0;
   left: 0;
-  background: #F195B2;
+  /*background: #F195B2;----------------------------------------------------------------------------------------------------------*/
+  background: #F1B002 ;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -10143,4 +10146,28 @@ h6,
   .footer .border-right {
     border-right: none !important;
   }
+}
+
+
+.move {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.capa-superpuesta {
+  position: absolute; /* Permite superponer este div */  
+  z-index: -1; /* Coloca la capa detrás del div en movimiento */
+  /* Agrega otros estilos según sea necesario */
 }
