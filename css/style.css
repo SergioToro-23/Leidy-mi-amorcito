@@ -10171,3 +10171,18 @@ h6,
   z-index: -1; /* Coloca la capa detrás del div en movimiento */
   /* Agrega otros estilos según sea necesario */
 }
+
+/* Estilo para el botón */
+.mi-boton {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  z-index: 9999;
+}
+
+#cronometro {
+          font-size: 24px;
+          font-weight: bold;
+      }
