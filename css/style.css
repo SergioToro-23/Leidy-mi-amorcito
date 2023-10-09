@@ -9526,7 +9526,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #F195B2 !important;
+  color: #ffc107 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9815,7 +9815,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ld4.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9826,7 +9826,7 @@ h6,
   left: 0;
   width: 100px;
   height: 5px;
-  background: #F195B2;
+  background: #E29926;
 }
 
 .section-title::after {
@@ -9836,7 +9836,7 @@ h6,
   left: 0;
   width: 100px;
   height: 1px;
-  background: #62C3E7;
+  background: #E29926;
 }
 
 .section-title.text-center::before,
